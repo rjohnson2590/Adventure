@@ -43,42 +43,38 @@ function game(A){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice);
-			// if(booty() === true){
-			// 	console.log("You win")
-			// 	rl.close();
-			// }
-			// if(dir===null){
-			// 	game(room(other));
-			// }
+			if(dir!==null){	
 			other=name1(dir)
-			game(room(other));
+			game(room(other));}
+			else{console.log("That is not a valid way to go, I am teleporting you back to the start");
+				game("A")			}
 		}else if(choice==="north"){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice); 
-			// if(dir===null){
-			// 	game(room(other));
-			// }
+			if(dir!==null){	
 			other=name1(dir)
-			game(room(other));
+			game(room(other));}
+			else{console.log("That is not a valid way to go, I am teleporting you back to the start");
+				game("A")			}
 		}else if(choice==="south"){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice);
-			// if(dir===null){
-			// 	rl.close();
-			// } 
+			if(dir!==null){	
 			other=name1(dir)
-			game(room(other));
+			game(room(other));}
+			else{console.log("That is not a valid way to go, I am teleporting you back to the start");
+				game("A")			}
 		}else if(choice==="west"){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice);
-			// if(dir===null){
-			// 	game(room(other));
-			// }
+			if(dir!==null){	
 			other=name1(dir)
-			game(room(other));
+			game(room(other));}
+			else{console.log("That is not a valid way to go, I am teleporting you back to the start");
+				game("A")			}
 
 		}
 
