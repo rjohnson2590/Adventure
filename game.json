@@ -2,7 +2,7 @@
   "rooms": [
     {
       "name": "A",
-      "description":"Hello welcome to the castle. I am your guide for this adventure. I have brought you here to naviagate my maze in the castle to receive treasure, this is simply for my perverse pleasure. Please choose a direction to follow, north for up, south for down, east for left, and west for right. Currently there are doors up and to the right make your choice: ",
+      "description":"This is room A. Choose: ",
       "north": "D",
       "east": "B",
       "south": null,
@@ -10,7 +10,7 @@
     },
     {
       "name": "B",
-      "description":"This room contains a firebreathing dragon you must run away quickly. Choose: ",
+      "description":"This is room B. Choose: ",
       "north": "E",
       "east": "C",
       "south": null,
@@ -19,6 +19,7 @@
     },
     {
       "name": "C",
+      "description":"This is room C. Choose: ",
       "north": null,
       "east": null,
       "south": null,
@@ -26,7 +27,7 @@
     },
     {
       "name": "D",
-      "description":"THis real feels like the right way. Choose: ",
+      "description":"This is room D. Choose: ",
       "north": "G",
       "east": null,
       "south": "A",
@@ -34,6 +35,7 @@
     },
     {
       "name": "E",
+      "description":"This is room E. Choose: ",
       "north": null,
       "east": "F",
       "south": "B",
@@ -41,6 +43,7 @@
     },
     {
       "name": "F",
+      "description":"This is room F. Choose: ",
       "north": null,
       "east": null,
       "south": null,
@@ -48,7 +51,7 @@
     },
     {
       "name": "G",
-      "description":"This room is a good room. Choose: ",
+      "description":"This is room G. Choose: ",
       "north": "H",
       "east": null,
       "south": "D",
@@ -56,6 +59,7 @@
     },
     {
       "name": "H",
+      "description":"This is room H. Choose: ",
       "north": null,
       "east": "I",
       "south": "G",
@@ -63,6 +67,7 @@
     },
     {
       "name": "I",
+      "description":"This is room I. Choose: ",
       "north": null,
       "east": "J",
       "south": null,
@@ -70,6 +75,7 @@
     },
     {
       "name": "J",
+      "description":"This is room J. Choose: ",
       "north": null,
       "east": "K",
       "south": null,
@@ -77,6 +83,7 @@
     },
     {
       "name": "K",
+      "description":"This is room K. Choose: ",
       "north": null,
       "east": null,
       "south": null,

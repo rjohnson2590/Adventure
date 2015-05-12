@@ -40,33 +40,25 @@ function game(A){
 			var other="";
 			dir = movement(name1(A),choice);
 			other=name1(dir)
-			rl.question(description(other),function(){
-				game(dir)
-			});
+			game(room(other));
 		}else if(choice==="north"){
 			var dir='';
 			var other="";
-			dir = movement(name1(A),choice);
-			other=name1(dir)
-			rl.question(description(other),function(){
-				game(dir)
-			});
+			dir = movement(name1(A),choice); 
+			other=name1(dir)// 4
+			game(room(other));
 		}else if(choice==="south"){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice);
 			other=name1(dir)
-			rl.question(description(other),function(){
-				game(dir)
-			});
+			game(room(other));
 		}else if(choice==="west"){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice);
 			other=name1(dir)
-			rl.question(description(other),function(){
-				game(dir)
-			});
+			game(room(other));
 
 		}
 
