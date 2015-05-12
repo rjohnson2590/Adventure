@@ -45,7 +45,7 @@ function game(A){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice); 
-			other=name1(dir)// 4
+			other=name1(dir)
 			game(room(other));
 		}else if(choice==="south"){
 			var dir='';
