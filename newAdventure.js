@@ -30,6 +30,10 @@ function description(index){
 	return contents["rooms"][index].description;
 }
 
+function booty(){
+	return contents["rooms"][10].treasure;
+}
+
 
 
 
@@ -39,24 +43,40 @@ function game(A){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice);
+			// if(booty() === true){
+			// 	console.log("You win")
+			// 	rl.close();
+			// }
+			// if(dir===null){
+			// 	game(room(other));
+			// }
 			other=name1(dir)
 			game(room(other));
 		}else if(choice==="north"){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice); 
+			// if(dir===null){
+			// 	game(room(other));
+			// }
 			other=name1(dir)
 			game(room(other));
 		}else if(choice==="south"){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice);
+			// if(dir===null){
+			// 	rl.close();
+			// } 
 			other=name1(dir)
 			game(room(other));
 		}else if(choice==="west"){
 			var dir='';
 			var other="";
 			dir = movement(name1(A),choice);
+			// if(dir===null){
+			// 	game(room(other));
+			// }
 			other=name1(dir)
 			game(room(other));
 
@@ -66,7 +86,6 @@ function game(A){
 }
 
 game("A");
-
 
 
 
