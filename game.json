@@ -2,6 +2,7 @@
   "rooms": [
     {
       "name": "A",
+      "description":"Hello welcome to the castle. I am your guide for this adventure. I have brought you here to naviagate my maze in the castle to receive treasure, this is simply for my perverse pleasure. Please choose a direction to follow, north for up, south for down, east for left, and west for right. Currently there are doors up and to the right make your choice: ",
       "north": "D",
       "east": "B",
       "south": null,
@@ -9,6 +10,7 @@
     },
     {
       "name": "B",
+      "description":"This room contains a firebreathing dragon you must run away quickly. Choose: ",
       "north": "E",
       "east": "C",
       "south": null,
@@ -24,6 +26,7 @@
     },
     {
       "name": "D",
+      "description":"THis real feels like the right way. Choose: ",
       "north": "G",
       "east": null,
       "south": "A",
@@ -45,6 +48,7 @@
     },
     {
       "name": "G",
+      "description":"This room is a good room. Choose: ",
       "north": "H",
       "east": null,
       "south": "D",
