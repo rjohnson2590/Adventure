@@ -83,7 +83,7 @@
     },
     {
       "name": "K",
-      "description":"This is room K. You Just found the treasure. Money can't buy you love. ",
+      "description":"This is room K. You Just found the treasure. Money can't buy you love. Please enter crtl+c because you just won and should quit the game now.",
       "north": null,
       "east": null,
       "south": null,
