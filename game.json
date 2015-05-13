@@ -2,14 +2,16 @@
   "rooms": [
     {
       "name": "A",
+      "visted":true,
       "description":"This is room A. Choose between north and east: ",
       "north": "D",
       "east": "B",
       "south": null,
-      "west": null
+      "west": null 
     },
     {
       "name": "B",
+      "visted":false,
       "description":"This is room B. Choose between north, east, and west: ",
       "north": "E",
       "east": "C",
@@ -19,6 +21,7 @@
     },
     {
       "name": "C",
+      "visted":false,
       "description":"This is room C. Choose west(Thats it don't fuck this up): ",
       "north": null,
       "east": null,
@@ -27,6 +30,7 @@
     },
     {
       "name": "D",
+      "visted":false,
       "description":"This is room D. Choose between north and south: ",
       "north": "G",
       "east": null,
@@ -35,6 +39,7 @@
     },
     {
       "name": "E",
+      "visted":false,
       "description":"This is room E. Choose between east and south: ",
       "north": null,
       "east": "F",
@@ -43,6 +48,7 @@
     },
     {
       "name": "F",
+      "visted":false,
       "description":"This is room F. Choose west(Seriouly I'm telling you what to do don't do anything but type west): ",
       "north": null,
       "east": null,
@@ -51,6 +57,7 @@
     },
     {
       "name": "G",
+      "visted":false,
       "description":"This is room G. Choose between north and south: ",
       "north": "H",
       "east": null,
@@ -59,6 +66,7 @@
     },
     {
       "name": "H",
+      "visted":false,
       "description":"This is room H. Choose between east and south: ",
       "north": null,
       "east": "I",
@@ -67,6 +75,7 @@
     },
     {
       "name": "I",
+      "visted":false,
       "description":"This is room I. Choose between east and west: ",
       "north": null,
       "east": "J",
@@ -75,6 +84,7 @@
     },
     {
       "name": "J",
+      "visted":false,
       "description":"This is room J. Choose between east and west: ",
       "north": null,
       "east": "K",
@@ -83,7 +93,8 @@
     },
     {
       "name": "K",
-      "description":"This is room K. You Just found the treasure. Money can't buy you love. Please enter crtl+c because you just won and should quit the game now.",
+      "visted":false,
+      "description":"This is room K. You Just found the treasure. Money can't buy you love.",
       "north": null,
       "east": null,
       "south": null,
