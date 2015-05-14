@@ -53,7 +53,20 @@
 
 
 
+var numbers = [1, 2, 3, 4, 5, 6];
+var newNumbers=[]
+var filter = function(array, callBack, ray){
+	array.forEach(function(n){
+		if(callBack(n)===true){
+		ray.push(n)
+			}
+	})
+	return ray
+}
+var evenNumbers = filter(numbers, function(n) { return (n % 2) === 0; },newNumbers);
 
+
+console.log(evenNumbers)
 
 
 
