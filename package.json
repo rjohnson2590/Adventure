@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsi-gamelib": "git://github.com/portlandcodeschool/jsi-gamelib.git"
+    "jsi-gamelib": "git://github.com/portlandcodeschool/jsi-gamelib.git",
+    "lodash": "^3.8.0"
   }
 }
