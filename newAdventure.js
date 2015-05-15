@@ -1,4 +1,4 @@
-console.log(require('./node_modules/jsi-gamelib').map(require(process.argv[2])));
+// console.log(require('./node_modules/jsi-gamelib').map(require(process.argv[2])));
 
 var contents = require("./game.json") 
 var components = require("./node_modules/jsi-gamelib/lib/components.js");
@@ -59,10 +59,24 @@ function booty(index){
 
 function gameMap(A){
 	console.log(contents.rooms[name1(A)].drawing)
-	// console.log(contents.rooms[name1(B)].drawing);
 }
 
-// console.log(actualVisted.drawing)
+var Room = function(name, description,north,east,south,west){
+    this.name=name;
+    this.description=description;
+    this.north=north;
+    this.east=east;
+    this.south=south;
+    this.west=west;
+}
+
+var list = function(){
+	var rooms=[]
+	for(var i=0; i<11; i++){console.log( new Room(room(i),description(i),movement(i,"north"),movement(i,"east"),movement(i,"south"),movement(i,"west")))}
+		
+};
+
+console.log(list())
 
 function game(A){
 	console.log(drawing(house));
